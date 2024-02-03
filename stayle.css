@@ -1,0 +1,47 @@
+body {
+    margin: 10px;
+    font-family: 'Arial', sans-serif;
+    background: black;
+
+  }
+  .h1{
+    color: aqua;
+    text-align: center;
+    
+  }
+  
+  .flex-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    padding: 20px;
+  }
+  
+  .item {
+    flex: 1 0 calc(33.33% - 10px);
+    background-color: orangered;
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+    border-radius: 15px;
+  }
+
+  .grid{
+    color: orangered;
+    font-size: xx-large;
+  }
+ 
+  
+  .grid-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+    gap: 10px;
+    padding: 20px;
+  }
+  
+  .flix{
+     
+    font-family: 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size:xx-large;
+    color: goldenrod;
+  }
